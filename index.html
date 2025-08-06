@@ -5,79 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seu Nome - Portfólio Audiovisual</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <div class="logo">Seu Nome</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">SEU LOGO</a>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <a href="#contact" class="hire-me-btn">Contrate-me</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <h1>Seu trabalho é a sua voz.</h1>
-            <p>Especialista em criar narrativas visuais únicas e impactantes.</p>
-            <a href="#portfolio" class="cta-button">Ver Portfólio</a>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h1 class="hero-title">Empoderando sua Imaginação através do Vídeo</h1>
+                <p class="hero-subtitle">Olá, eu sou [Seu Nome], um entusiasta de Audiovisual.</p>
+                <p class="hero-description">Transformo ideias em histórias visuais impactantes. Com mais de [X] anos de experiência, ajudei [X] clientes a alcançar seus objetivos.</p>
+                <a href="#portfolio" class="cta-btn">Ver Portfólio</a>
+            </div>
         </section>
 
-        <section id="portfolio" class="portfolio-grid">
-            <h2>Portfólio</h2>
-            <div class="project-item">
-                <a href="URL_DO_SEU_VIDEO_DO_YOUTUBE" target="_blank">
-                    <img src="URL_DA_SUA_IMAGEM_1.jpg" alt="Descrição do Projeto 1">
-                    <div class="overlay">
-                        <i class="fas fa-play"></i>
-                        <span>Título do Projeto 1</span>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/400" alt="Sua Foto">
                     </div>
-                </a>
-            </div>
-            <div class="project-item">
-                <a href="URL_DO_SEU_VIDEO_DO_YOUTUBE" target="_blank">
-                    <img src="URL_DA_SUA_IMAGEM_2.jpg" alt="Descrição do Projeto 2">
-                    <div class="overlay">
-                        <i class="fas fa-play"></i>
-                        <span>Título do Projeto 2</span>
+                    <div class="about-text">
+                        <h2>Sobre Mim</h2>
+                        <p>Eu sou um profissional apaixonado por criar experiências visuais. Minha jornada no mundo audiovisual começou com a paixão por contar histórias. Hoje, utilizo a tecnologia para dar vida a essas histórias de uma forma única e memorável.</p>
+                        <p>Minhas especialidades incluem:</p>
+                        <ul>
+                            <li>Edição de Vídeo</li>
+                            <li>Cinematografia</li>
+                            <li>Color Grading</li>
+                            <li>Motion Graphics</li>
+                        </ul>
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="project-item">
-                <a href="URL_DO_SEU_VIDEO_DO_YOUTUBE" target="_blank">
-                    <img src="URL_DA_SUA_IMAGEM_3.jpg" alt="Descrição do Projeto 3">
-                    <div class="overlay">
-                        <i class="fas fa-play"></i>
-                        <span>Título do Projeto 3</span>
-                    </div>
-                </a>
-            </div>
-            </section>
-
-        <section id="sobre" class="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Seu texto sobre sua trajetória profissional, sua paixão pelo audiovisual e o que o inspira. Fale sobre seu estilo, as técnicas que você domina e os tipos de projetos que você gosta de fazer. Crie uma narrativa que conecte seu trabalho com sua paixão.</p>
         </section>
 
-        <section id="contato" class="contato">
-            <h2>Contato</h2>
-            <p>Vamos criar algo incrível juntos. Entre em contato para discutirmos seu próximo projeto.</p>
-            <form action="#" method="post">
-                <input type="text" name="nome" placeholder="Seu Nome" required>
-                <input type="email" name="email" placeholder="Seu Email" required>
-                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar Mensagem</button>
-            </form>
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Meus Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="icon-camera"></i>
+                        <h3>Produção de Vídeo</h3>
+                        <p>Criação de vídeos de alta qualidade para campanhas, eventos e mídias sociais.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="icon-edit"></i>
+                        <h3>Edição Profissional</h3>
+                        <p>Edição de vídeo, pós-produção e efeitos visuais para transformar sua gravação.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="icon-color"></i>
+                        <h3>Color Grading</h3>
+                        <p>Ajuste de cores para criar a atmosfera e o estilo visual desejado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>Portfólio</h2>
+                <div class="portfolio-grid">
+                    <a href="URL_DO_VIDEO_1" target="_blank" class="portfolio-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Projeto 1">
+                        <div class="overlay">
+                            <h3>Nome do Projeto 1</h3>
+                            <p>Descrição do projeto e tecnologias usadas.</p>
+                        </div>
+                    </a>
+                    <a href="URL_DO_VIDEO_2" target="_blank" class="portfolio-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Projeto 2">
+                        <div class="overlay">
+                            <h3>Nome do Projeto 2</h3>
+                            <p>Descrição do projeto e tecnologias usadas.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2>O que meus clientes dizem</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <p>"Seu trabalho superou todas as minhas expectativas. Profissionalismo e criatividade em cada detalhe."</p>
+                        <h4>- Nome do Cliente 1</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"A qualidade visual e a narrativa dos vídeos são incríveis. Recomendo muito!"</p>
+                        <h4>- Nome do Cliente 2</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Pronto para começar seu próximo projeto? Me envie uma mensagem!</p>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/SUA_ID_FORM" method="POST">
+                        <input type="text" name="name" placeholder="Seu Nome" required>
+                        <input type="email" name="_replyto" placeholder="Seu Email" required>
+                        <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="URL_SEU_INSTAGRAM" target="_blank">Instagram</a>
+                <a href="URL_SEU_LINKEDIN" target="_blank">LinkedIn</a>
+                <a href="URL_SEU_YOUTUBE" target="_blank">YouTube</a>
+            </div>
+            <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
